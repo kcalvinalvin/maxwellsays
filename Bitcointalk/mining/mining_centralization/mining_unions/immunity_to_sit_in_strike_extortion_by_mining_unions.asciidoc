@@ -42,6 +42,7 @@ Is there some point that I'm missing before I go and invest in fab capacity to a
 ~2.~ ~This~ ~article~ ~was~ ~written~ ~back~ ~in~ ~2011~
 ~3.~ ~US~ ~dollars~
 
+{empty} +
 == Comments and Maxwell's Replies
 
 *Garrett Burgwardt*: This is all assuming that transactions volume hasn't increased by the time the block reward dropoff occurs. Pretty far fetched imo.
@@ -95,4 +96,4 @@ It seems clear enough to me from the threads in the mining forum that people are
 
 ~1.~ ~The~ ~more~ ~frequently~ ~used~ ~term~ ~at~ ~the~ ~time~ ~of~ ~writing~ ~this~ ~note~ ~is~ ~block~ ~subsidy.~
 
-~2.~ ~One~ ~hundredth ~of ~BTC.~
+~2.~ ~One~ ~hundredth~ ~of~ ~BTC.~

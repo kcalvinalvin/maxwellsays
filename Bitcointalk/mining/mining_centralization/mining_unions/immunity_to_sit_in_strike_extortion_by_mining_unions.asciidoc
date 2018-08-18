@@ -38,9 +38,9 @@ Is there some point that I'm missing before I go and invest in fab capacity to a
 
 '''
 
-~1.~ ~Bitcoin was worth around 1 US dollar at the time of this article being published~
-~2.~ ~This article was written back in 2011~
-~3.~ ~US dollars~
+~1.~ ~Bitcoin~ ~was~ ~worth~ ~around~ ~1~ ~US~ ~dollar~ ~at~ ~the~ ~time~ ~of~ ~this~ ~article~ ~being~ ~published~
+~2.~ ~This~ ~article~ ~was~ ~written~ ~back~ ~in~ ~2011~
+~3.~ ~US~ ~dollars~
 
 == Comments and Maxwell's Replies
 
@@ -93,6 +93,6 @@ It seems clear enough to me from the threads in the mining forum that people are
 
 '''
 
-~1.~ ~The more frequently used term at the time of writing this note is block subsidy.~
+~1.~ ~The~ ~more~ ~frequently~ ~used~ ~term~ ~at~ ~the~ ~time~ ~of~ ~writing~ ~this~ ~note~ ~is~ ~block~ ~subsidy.~
 
-~2.~ ~One hundredth of BTC.~
+~2.~ ~One~ ~hundredth ~of ~BTC.~

@@ -36,7 +36,7 @@ Is there some point that I'm missing before I go and invest in fab capacity to a
 ~2. This article was written back in 2011~
 ~3. US dollars~
 
-=== Comments and Maxwell's Replies
+== Comments and Maxwell's Replies
 
 _Garrett Burgwardt_: This is all assuming that transactions volume hasn't increased by the time the block reward dropoff occurs. Pretty far fetched imo.
 

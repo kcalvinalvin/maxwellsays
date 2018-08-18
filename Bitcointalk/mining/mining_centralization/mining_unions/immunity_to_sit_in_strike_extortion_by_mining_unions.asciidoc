@@ -38,8 +38,10 @@ Is there some point that I'm missing before I go and invest in fab capacity to a
 
 '''
 
-~1.~ ~Bitcoin~ ~was~ ~worth~ ~around~ ~1~ ~US~ ~dollar~ ~at~ ~the~ ~time~ ~of~ ~this~ ~article~ ~being~ ~published~
+~1.~ ~Bitcoin~ ~was~ ~worth~ ~around~ ~one~ ~US~ ~dollar~ ~at~ ~the~ ~time~ ~of~ ~this~ ~article~ ~being~ ~published~
+
 ~2.~ ~This~ ~article~ ~was~ ~written~ ~back~ ~in~ ~2011~
+
 ~3.~ ~US~ ~dollars~
 
 {empty} +

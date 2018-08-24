@@ -6,7 +6,7 @@
 
 8/19/2018
 
-This article mainly points out how miners can impose a fee on each transaction since the block subsidy is much greater than the transaction fee. This is no longer the case at the time of writing this note and will not be the case in the future as the transaction fee will take up more percentage of a miner's block reward. This article will have merit with new coins.
+This article mainly points out how miners can impose a fee on each transaction since the block subsidy is much greater than the transaction fee. This is no longer the case at the time of writing this note and will not be the case in the future as the transaction fee will take up more percentage of a miner's block reward. This article will have merit with new coins. The TL;DR is by Maxwell himself.
 
 '''
 

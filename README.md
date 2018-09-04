@@ -13,6 +13,10 @@ be the title of the topic. However, if the writing is just a comment on
 a topic started by another user, the title will be whatever the editor 
 deems sensible with the date attached at the end. 
 
+The editor's version omits the seemingly random thoughts and comments that 
+normally happen in a forum. The regular version includes everything that 
+Maxwell has ever said.
+
 The final goal is to document all the thoughts that ever happened in the 
 Bitcoin development scene. This goal is extremely ambitious and is it 
 very uncertain if it will be ever completed.

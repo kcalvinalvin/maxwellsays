@@ -1,0 +1,40 @@
+= Free Transactions in a Block
+
+5/9/2011
+
+=== Editor's note
+
+8/24/2018
+
+This post is a reply to a comment about a pool not supporting free transactions. Maxwell goes over the reality of free transactions and gives a possible solution to supporting free transactions. As of 2018, transactions with no fee might not be mined at all and will be the case in the future as the block subsidy declines, making the miners rely more on transaction fees for their income.
+
+'''
+
+=== So how many people are switching away from deepbit?
+
+*DareC*: With all this noise about deepbit controlling 50% or more of total mining power, I've seen a handful of people say that they've moved to other pools. I'd like to get a firm idea of how many people have done so.
+
+So, have you moved? If so, where?
+
+I had been meaning to experiment with deepbit's PPS model (I started on proportional), but with the controversy, I decided to move over to Eligius. Fees per share are lower there anyway.
+
+{empty} +
+*Garrett Burgwardt*: I'm in Eligus. Wanted to try it out anyway and the fact that I'm supporting a pool that allows low fees is nice. And the fact that coins show up directly into my wallet is a big plus.
+
+I represent about 2gh/s.
+
+{empty} +
+*BitLex*: It allows low fees for miners; that's true. But the fact that it doesn't allow ANY free transactions isn't that nice. It forces every Bitcoin user, may it be a miner or not, to pay transaction fees. Do you _ever_ send free transactions? I hope you don't.
+
+{empty} +
+*Maxwell*: With the current limits used by most miners(including the big pools) no more than about 10 free transactions will ever be put into a block (because the software stops adding them when the block hits 4k) and less if there are also paying transactions. There are only 10 blocks solved an hour(well, more at the moment because the hashrate grew and difficulty will take another day or two to catch up).
+
+Some miners appear to be processing blocks without any transactions at all (except the generated transaction to pay them of course), even though there are fee transactions pending. (For example: http://blockexplorer.com/block/0000000000007787385a1a8e076e0a6192a1af786845ab21ad1ab675290c2b24)
+
+So, over the long term as the software is currently setup, the network will only confirm 60 free transactions per hour. The backlog of free transactions went up to over 1000 several times last week. It only takes a _very_ small fee (0.00004096 BTC) to get included in Eligius blocks. It's pretty reasonable compared to the network's current inability to cope with many free transactions.
+
+I talked to Luke-Jr^1^ on IRC^2^ about the possibility of setting up a free transaction fountain to pay miners to process free transactions. He pointed out that the fountain would need to have some heuristic to distinguish spammy transactions but sounded positive about the idea. This might be a route to long term sustainability for those who care about free transactions... though with some miners apparently forging with fee transactions, I'm not so sure.
+
+~1.~ ~Luke~ ~Jr~ ~is~ ~another~ ~Bitcoin~ ~Core~ ~developer.~ ~He~ ~is~ ~held~ ~to~ ~high~ ~regards~ ~by~ ~the~ ~Bitcoin~ ~community.~
+
+~2.~ ~Internal~ ~Relay~ ~Chat.~ ~Maxwell~ ~is~ ~referring~ ~to~ ~the~ ~Bitcoin~ ~IRC~ ~chat.~

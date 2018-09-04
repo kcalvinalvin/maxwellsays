@@ -1,0 +1,102 @@
+= Immunity to sit-in-strike extortion by mining unions?
+
+5/5/2011
+
+=== Editor's note
+
+8/19/2018
+
+This article mainly points out how miners can impose a fee on each transaction since the block subsidy is much greater than the transaction fee. This is no longer the case at the time of writing this note and will not be the case in the future as the transaction fee will take up more percentage of a miner's block reward. This article will have merit with new coins. The TL;DR is by Maxwell himself.
+
+'''
+
+TL;DR:  I'm pointing out that miners can't compete on transaction prices until the mining costs rises to consume 100% of the block bonus, because of this miners can hold the Bitcoin market hostage by refusing to process transactions. This isn't a risk further in the future as the block bonus goes away, but at the moment I think there is a risk of a break-away mining arms race which will disrupt the network and only be profitable for GPU makers.
+
+'''
+
+Imagine that there exists a mining union with 1/2 of the global mining capacity.
+
+Assume the union members have substantial investments in specialized mining hardware and they are unhappy about the decreased payoffs due to increasing difficulty, decreasing block yield, and exchange rates. Also assume that the miners are in it for the money and don't care about the health of the currency except in so far as they want to maximize their income.
+
+This mining union decides to impose a 1 BTC^1^ minimum on transactions they include in their blocks. The miners keep working, thus keep solving blocks and getting paid for doing so, but they're not doing any useful work as far as the Bitcoin network is concerned; they're just dead weight slowing down the transaction processing for everyone.
+
+Because transaction fees are currently^2^ insignificant compared to the block reward, miners will not lose a significant amount of money as a result of their strike and so the union members will not break the strike.
+
+If few pay the extortion transaction fees then the strike constitutes a DOS attack on the Bitcoin currency (transactions would be confirmed 50% slower on average), but still doesn't hurt the striking miners, they still get paid about the same.  There would be no reason (except to protect the network) that other mining unions wouldn't join the strike too. Unions will not compete on transaction price because there currently can be no reasonable transaction cost (e.g. wouldn't be disproportionate with mining costs, and wouldn't kill Bitcoin) which would be significant compared to the block reward for the next few years.
+
+I don't see any elegant solutions to this risk. I don't think the obvious tweaks work.. e.g. Changing the longest chain rule to make blocks with the most transactions win would just be gamed by the strikers adding in their own dummy transactions.
+
+Cooperating Bitcoin users could join together add more mining capacity in order to make the striking group(s) small with respect to the overall mining capacity. For example, I estimate that it would currently cost $2.5 million dollars to reduce 50% of the current capacity to 10%, (or twice that to convert 100% of the current capacity to 10%)— changing a large DOS to a more tolerable one.  Assuming they paid for the hardware with Bitcoins at todays exchange rate (744300 BTC) on loan with 6% APY, they'd need to make about 6.6BTC per block to pay off the hardware in three years. But since this is less than the current (and near term) built-in block payoff, the strikers would rationally add capacity too.
+
+The equilibrium point of this system is the point where 100% of the block reward was being spent on mining and at only at that point miner unions would actually compete on transaction fees, making striking no longer profitable. At current exchange and block reward amounts the equilibrium point would be a worldwide mining spend of $8.9 million dollars per year. Thats one _hell_ of an overhead for a currency with a total value of only $20 million dollars^3^.
+
+I'm concerned that this outcome may be an inevitable consequence of the large amount of for-profit mining combined with the upcoming point change in mining returns which will leave a large number of math impaired commercial miners regretting their financial decisions. No one would have started out intending to create this situation, but if you're sitting on a lot of expensive hardware then trying to shake people down on fees might look pretty attractive.
+
+Pools provide a trivial hook for this. We could enter this state slowly through pools agreeing to initially impose increasingly higher transaction minimums. They don't even have to collude, but it would be more profitable for them to do so.  We're already seeing new pools imposing higher transaction minimums as a result of the current policy of pools to keep the transaction fees for themselves (and then competing on the how much of the block reward they leave to members).
+
+Is there some point that I'm missing before I go and invest in fab capacity to arm the impending mining war? Wink
+
+'''
+
+~1.~ ~Bitcoin~ ~was~ ~worth~ ~around~ ~one~ ~US~ ~dollar~ ~at~ ~the~ ~time~ ~of~ ~this~ ~article~ ~being~ ~published~
+
+~2.~ ~This~ ~article~ ~was~ ~written~ ~back~ ~in~ ~2011~
+
+~3.~ ~US~ ~dollars~
+
+{empty} +
+
+== Comments and Maxwell's Replies
+
+*Garrett Burgwardt*: This is all assuming that transactions volume hasn't increased by the time the block reward dropoff occurs. Pretty far fetched imo.
+
+*Maxwell*: No, I don't think it is. It's a more general argument that miners only compete on transaction costs if all/almost-all of the block-bonus^1^ (whatever it is) is being spent on the cost of mining.  Until that point is reached, miners can demand whatever transaction cost they like and continue to hold their position in the market by adding mining capacity.
+
+Basically, the rewards make all mining, even anti-social mining profitable. It doesn't really matter how much potential value there is in transactions if you can make basically as much money churning out nearly empty blocks.
+
+{empty} +
+{empty} +
+{empty} +
+*tomcollins*: It's very, very, very hard to get a lot of people to collude without cheating and with no enforcement.
+"Oh sure, I'll only accept transactions with a fee of 1 BTC".  Then accept anything over a bitcent^2^.
+
+*Maxwell*: Yes, but they don't actually have to collude. You can claim that, then do otherwise. This means you and I both won't profit as much from extortion. But I won't actually lose anything by doing it while you don't, because miners don't compete on transaction costs. Even if you don't cooperate, some people will still offer the higher fees, because they don't want the risk of me solving the newest block and slowing down their transaction confirmations.
+
+{empty} +
+{empty} +
+{empty} +
+*ribuck*: Some of the miners will also be retailers or exchangers, and will have an interest in getting transactions into blocks.
+
+*Maxwell*: Absolutely. This is why I described this as being a problem resulting from for-profit mining by people that don't care much about the success of Bitcoin overall. Still, there is nothing preventing striking miners from giving priority access to blocks from their friends. In fact, such a scheme would be perfectly compatible with crediting contributed mining effort as equal to a transaction fee. In this manner a bad mining pool could suck away contributing miners from other pools. "Contribute at least a GH/s to pool X and your transactions will get priority".
+
+{empty} +
+{empty} +
+{empty} +
+*vladimir*: Anyway the horrible risk you have described which is also impossible to fix as you say, is not a bug it is a feature. The worst it can do eventually is that the higher fee you pay the higher speed of transfer you get. Here we go I've just coined a new term TMYPTQUT meaning The More You Pay The Quicker You Transact. And TMYPTQUT, frankly, does not appear to be patently unfair principle.
+
+If free markets say that 10 minute transaction cost is 1 BTC, so be it. If free markets say that time it takes for a free transaction to propagate is 1 week so be it too.
+
+*Maxwell*: I agree that the long term behavior is the correct one, and I understand that it's intended. What is bothering me is that the block rewards distort the market for the TMYPTQUT service. The lottery effect isolates mining from the value of the service that transaction processing provides. I'm pretty sure TMYPTQUT can only reach a pricing equilibrium (with transaction pricing fairly reflecting the cost of operating the infrastructure) only after all of the block reward profit is being spent on infrastructure costs.
+
+This would be fine, except for the fact that at current exchange rates and hardware costs that equilibrium point would require almost half of the current total value of the Bitcoin market being spent on mining every year, which is obviously unsustainable.  It'll still be unsustainable when the reward goes to 25 BTC. As the market grows and once the rewards go down far enough it won't be an issue. However, I think there are probably a good couple years of exposure right now.
+
+{empty} +
+{empty} +
+{empty} +
+*kirian*: I think there is also another dynamic - if the miners strike as you describe it causes the transaction speed to slow down this would impact the usefulness of Bitcoin and hence reduce its value. So the 50 BTC the miners for solving a block would be worth less.
+
+Go on strike and hope to extort extra tx fee revenue but the 50 BTC bounty is worth less
+or
+Don't go on strike the the 50 BTC bounty value is worth more
+
+*Maxwell*: Absolutely— and this is why you'd never start off buying mining hardware with the intention of going on strike.  But what happens when you've bought a ton of mining hardware and poor planning, greed, or market dynamics leave you unhappy with your returns?
+
+At the moment the marginal risk of collapsing the market in the short term is fairly small. The Bitcoin transaction rates are fairly low compared to the dollar value of the market. Investors/speculators don't really care much if the networks is currently slow. Of course, you would plan to exit the market before the arms race breaks it.
+
+It seems clear enough to me from the threads in the mining forum that people are buying non-trivial amounts of hardware based on assuming the current rates of return and ignoring the _known_ factors which will inevitably reduce the returns in mining investments, much less the unknown ones (like all the other people, making the same purchasing decisions). I've seen quite a few people that don't understand that there will only be a fixed number of coins created per day on average which will be spread proportionally among the miners (e.g. that adding mining workers is zero-sum— and in fact the pools with the dumb sha-cracking GPU workers actually _decrease_  the network's total transaction handling ability— GPUs are not very useful for transaction handling, but we've now difficulty-ied CPUs which _are_ good for that right out of the market).
+
+'''
+
+~1.~ ~The~ ~more~ ~frequently~ ~used~ ~term~ ~at~ ~the~ ~time~ ~of~ ~writing~ ~this~ ~note~ ~is~ ~block~ ~subsidy.~
+
+~2.~ ~One~ ~hundredth~ ~of~ ~BTC.~

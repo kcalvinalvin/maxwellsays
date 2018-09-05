@@ -13,7 +13,10 @@ http://www.newegg.com/Product/Product.aspx?Item=N82E16813130595
 You still can't put more than 4 double size cards on it, but 8 PCI-E slots on board?!
 
 {empty} +
-*Dayofswords*: >- PCI_E1 supports up to PCIE x16 speed (when PCI_E3 is empty)
+*Dayofswords*: 
+[source]
+--
+- PCI_E1 supports up to PCIE x16 speed (when PCI_E3 is empty)
 - PCI_E2 supports up to PCIE x1 speed
 - PCI_E3 supports up to PCIE x8 speed
 - PCI_E4 supports up to PCIE x1 speed
@@ -22,6 +25,7 @@ You still can't put more than 4 double size cards on it, but 8 PCI-E slots on bo
 - PCI_E7 supports up to PCIE x8 speed
 - PCI_E8 supports up to PCIE x1 speed
 - If you intend to install two expansion cards, it is recommended to install them into PCI_E1 & PCI_E5 slots.
+--
 
 Dreams, crushed.
 

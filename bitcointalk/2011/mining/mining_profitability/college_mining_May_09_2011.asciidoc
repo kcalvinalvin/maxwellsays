@@ -33,7 +33,9 @@ Moreover, they'll make the same kind of crap analysis we've seen from many peopl
 {empty} +
 *MoonShadow*: 
 --
+
 `Moreover, they'll make the same kind of crap analysis we've seen from many people here (difficulty increasing linearly 2% per month?!?! How can you read enough to know about difficulty an then completely miss its growth like that?) and they'll keep piling into it even when it's _not_ profitable for them.`"
+
 --
 
 You can't know who it's profitable for, or it isn't. Mining was never profitable for me, and in general I don't think it is but I can envision conditions where I would mine for a short period of time. There are many users who mine in their winter months because the cost of electricity is the main method for heating so running a miner is just a possible bonus to paying the heat bill (or they have basically free electricity).

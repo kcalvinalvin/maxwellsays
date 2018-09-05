@@ -1,0 +1,21 @@
+=== Editor's Note
+
+9/4/2018
+
+This post is a comment on the Bitcoin blockchain difficulty.
+
+'''
+
+=== Todays difficulty increase to 156000, where from here?
+
+*Littleshop*: So in about seven hours the difficulty will change.  Where do you see it going next?  It is going to be around 156000 today.
+
+My guest.... 170000
+
+{empty} +
+*Dayofswords*: The difficulty seems to have been increasing linearly for the last few weeks, so 200 000.
+
+{empty} +
+*Maxwell*:The difficulty only steps every 2016 blocks, which is about ~2 weeks.
+
+The hashrate looks pretty linear— on an exponential scale: http://bitcoin.sipa.be/speed-ever.png

@@ -1,0 +1,54 @@
+= College Mining
+
+5/9/2011 ~ 5/10/2011
+
+=== Editor's note
+
+8/24/2018
+
+These two comments by Maxwell are in response to a user asking if his mining setup would be profitable. The link seems to contain vital information for the post but it was broken at the time of editing and could not be recovered.
+
+'''
+
+=== Would this be wise? My college life (no I DO NOT LIVE IN A DORM)
+
+*psknives*: http://img814.imageshack.us/img814/5236/dfsdfd.png
+
+Gfx is based on how much money I get. 1.8 BTC is depended on gfx with difficulty in consideration.
+
+{empty} +
+*JJG*: As mentioned before, your difficulty estimates are way, way off. Difficulty will jump over 42% in a matter of hours, and that's after only ~10 days at the current difficulty.
+
+Your note suggests that you don't have difficulty rising very quickly because you believe it will be offset by purcahses of faster cards. You're being a bit optimistic here as the current 'GPU to have' for the Bitcoin game came out in 2009.
+
+But the absolute biggest indication that your model isn't realistic should be this: the barrier to entry for mining Bitcoin is *low* relative to other investments or business ventures. You don't have to get a business license, find investors, etc. You just take a computer, load a generic program, and hit go. This doesn't take special knowledge, other than the knowledge that Bitcoin mining exists.
+
+In other words: if you can do something on a shoestring budget in you basement without actually even working for it, then so can almost every other hardware enthusiast on the internet. And as they discover Bitcoin mining, they certainly will try. This will rapidly drive the absolute profitability into the ground.
+
+{empty} +
+*Maxwell*: 
+[source]
+--
+In other words: if you can do something on a shoestring budget in you basement without actually even working for it,
+then so can almost every other hardware enthusiast on the internet.
+And as they discover Bitcoin mining, they certainly will try.
+This will rapidly drive the absolute profitability into the ground.
+--
+
+Moreover, they'll make the same kind of crap analysis we've seen from many people here (difficulty increasing linearly 2% per month?!?! How can you read enough to know about difficulty an then completely miss its growth like that?) and they'll keep piling into it even when it's _not_ profitable for them.
+
+{empty} +
+*MoonShadow*:
+[source]
+--
+Moreover, they'll make the same kind of crap analysis we've seen from many people here 
+(difficulty increasing linearly 2% per month?!?! How can you read enough to know about difficulty an then completely miss its growth like that?)
+and they'll keep piling into it even when it's _not_ profitable for them.
+--
+
+You can't know who it's profitable for, or it isn't. Mining was never profitable for me, and in general I don't think it is but I can envision conditions where I would mine for a short period of time. There are many users who mine in their winter months because the cost of electricity is the main method for heating so running a miner is just a possible bonus to paying the heat bill (or they have basically free electricity).
+
+{empty} +
+*Maxwell*: If heating is a non-trivial part of your electricity expenses, then you should be using gas (much better power cost per therm than electrical heating) and/or an electric heat pump (greater than 100% "efficiency").
+
+Because of this, even with heating as a consideration, mining will never be free unless you can make some sucker pay for it for you. :)
